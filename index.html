@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Proyecto Make it Real</title>
+    <style>
+      A {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <ul class="hoverChannels">
+        <li><a href="#">General</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">JavaScript</a></li>
+      </ul>
+    </div>
+    <section class="chatSection">
+      <div class="chat"></div>
+      <div>
+        <form class="chatInput">
+          <input
+            id="enterMessage"
+            type="text"
+            autocomplete="off"
+            placeholder="Escribe tu mensaje"
+          />
+          <button type="submit" class="button-send">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
